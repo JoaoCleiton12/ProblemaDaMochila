@@ -17,3 +17,9 @@ Vamos assumir que a mochila suporta 20Kg e que temos 16 objetos, cada um com pes
       Objeto  |A |B |C |D |E |F |G |H |I |J |K |L |M |N |O |P | 
       Peso(KG)|12|3 |5 |4 |9 |1 |2 |3 |4 |1 |2 |4 |5 |2 |4 |1 |
       Valor($)|4 |4 |8 |10|15|3 |1 |1 |2 |10|20|15|10|3 |4 |12|
+      
+A solução usando algoritmos genéticos vai representar cada objeto por um bit. Vamos construir sequencias de 16 bits para indicar quais objetos 
+estão na mochila e quais não estão. A sequência abaixo poderia representar uma solução para o problema.
+
+      |A |B |C |D |E |F |G |H |I |J |K |L |M |N |O |P | 
+      |1 |0 |1 |1 |0 |0 |0 |0 |0 |1 |1 |0 |0 |0 |1 |1 |
