@@ -42,6 +42,6 @@ A finalidade dos operadores genéticos é obter uma variação das soluções in
 1) Cruzamento
 a. Ponto único: o cruzamento tipo ponto único gera uma nova solução a partir de duas soluções existentes, copiando parte dos bits da primeira solução e o restante da segunda solução.
 
-      Objeto  |A |B |C |D |E |F |G |H |I |J |K |L |M |N |O |P | 
-      Peso(KG)|12|3 |5 |4 |9 |1 |2 |3 |4 |1 |2 |4 |5 |2 |4 |1 |
-      Valor($)|4 |4 |8 |10|15|3 |1 |1 |2 |10|20|15|10|3 |4 |12|
+            Objeto  |A |B |C |D |E |F |G |H |I |J |K |L |M |N |O |P | 
+            Peso(KG)|12|3 |5 |4 |9 |1 |2 |3 |4 |1 |2 |4 |5 |2 |4 |1 |
+            Valor($)|4 |4 |8 |10|15|3 |1 |1 |2 |10|20|15|10|3 |4 |12|
