@@ -1,5 +1,5 @@
 # ProblemadaMochila
-Projeto desenvolvido para a matéria de Programação de computadores, utilizando conceitos de algoritmos genéticos - Ciência da computação - UFERSA
+
 
 Joãozinho, apesar de estar no início do curso de computação, já andou pesquisando e se deparou com um problema interessante de otimização chamado 
 de Problema da Mochila. O problema consiste em levar em uma mochila os objetos que somem o maior valor possível, mas sem extrapolar sua capacidade de peso. 
