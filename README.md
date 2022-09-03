@@ -43,7 +43,20 @@ A finalidade dos operadores genéticos é obter uma variação das soluções in
 a. Ponto único: o cruzamento tipo ponto único gera uma nova solução a partir de duas soluções existentes, copiando parte dos bits da primeira solução e o restante da segunda solução.
 
                                                 |
-            Solução A  |1 |1 |1 |0 |1 |1 |0 |0 ||I |J |K |L |M |N |O |P | 
-            Solução B  |12|3 |5 |4 |9 |1 |2 |3 ||4 |1 |2 |4 |5 |2 |4 |1 |
-               Nova    |4 |4 |8 |10|15|3 |1 |1 ||2 |10|20|15|10|3 |4 |12|
+                       |A |B |C |D |E |F |G |H ||I |J |K |L |M |N |O |P |
+            Solução A  |1 |1 |1 |0 |1 |1 |0 |0 ||0 |1 |0 |1 |1 |0 |0 |0 | 
+            Solução B  |0 |1 |1 |0 |0 |0 |0 |1 ||1 |0 |1 |0 |1 |0 |0 |0 |
+               Nova    |1 |1 |1 |0 |1 |1 |0 |0 ||1 |0 |1 |0 |1 |0 |0 |0 | 
+                                                |
+                                                
+                                                
+b. Aritmético (AND): o cruzamento tipo aritmético gera uma nova solução a partir de duas existentes, usando o bit 1 nas posições em que ambas soluções
+iniciais sejam 1 e 0, caso contrário.
+
+
+                                                |
+                       |A |B |C |D |E |F |G |H ||I |J |K |L |M |N |O |P |
+            Solução A  |0 |0 |1 |1 |0 |0 |0 |0 ||0 |0 |1 |0 |1 |0 |0 |1 | 
+            Solução B  |1 |0 |0 |1 |0 |1 |0 |0 ||1 |0 |1 |0 |0 |1 |1 |0 |
+               Nova    |0 |0 |0 |1 |0 |0 |0 |0 ||0 |0 |1 |0 |0 |0 |0 |0 |
                                                 |
