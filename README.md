@@ -84,8 +84,6 @@ b. Dupla: a mutação dupla tem o mesmo comportamento da simples, mas a nova sol
                
 Aplicaremos cruzamento de ponto único entre as duas primeiras soluções fornecidas pelo usuário, cruzamento aritmético entre a terceira e quarta solução, mutação simples sobre a quinta solução e, finalmente, mutação dupla sobre a sexta e última solução. Isso significa que após aplicação dos operadores genéticos teremos mais 4 soluções novas para avaliar.
 
-                       
-                       INSTRUÇÕES
 O programa deverá conter uma função para cada uma das tarefas abaixo:
 
 1. Função de Avaliação: recebe um valor inteiro, exibe o valor e peso total da solução e retorna um booleano indicando se o peso está dentro do limite da mochila;
@@ -107,3 +105,8 @@ Estas funções devem ser implementadas nos arquivos genetico.h e genetico.cpp. 
 
 
 O programa final deverá conter cinco arquivos, sendo o arquivo problema.cpp aquele que conterá a função main e se encarregará de ler os dados pelo teclado e exibir os resultados do programa.
+
+
+Exigências:
+1) Não é permitido usar variáveis globais
+2) A entrada e saída de dados só podem ser feitas no arquivo problema.cpp, salvo quando instruído explicitamente de outra forma (função de avaliação)
