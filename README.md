@@ -82,8 +82,28 @@ b. Dupla: a mutação dupla tem o mesmo comportamento da simples, mas a nova sol
                
                
                
-Aplicaremos cruzamento de ponto único entre as duas primeiras soluções fornecidas pelo usuário, cruzamento aritmético entre a terceira e quarta solução, mutação simples sobre a quinta solução e, finalmente, mutação dupla sobre a sexta e última solução. Isso significa que após aplicação dos operadores genéticos teremos mais 4 soluções novas para avaliar. A aplicação dos operadores em cima do exemplo inicial resultaria nos seguintes números:
+Aplicaremos cruzamento de ponto único entre as duas primeiras soluções fornecidas pelo usuário, cruzamento aritmético entre a terceira e quarta solução, mutação simples sobre a quinta solução e, finalmente, mutação dupla sobre a sexta e última solução. Isso significa que após aplicação dos operadores genéticos teremos mais 4 soluções novas para avaliar.
+
+                       
+                       INSTRUÇÕES
+O programa deverá conter uma função para cada uma das tarefas abaixo:
+
+1. Função de Avaliação: recebe um valor inteiro, exibe o valor e peso total da solução e retorna um booleano indicando se o peso está dentro do limite da mochila;
+2. Cruzamento Ponto único: recebe dois valores inteiros representando as soluções e retorna um valor inteiro representando o cruzamento de ponto único entre as soluções;
+3. Cruzamento Aritmético: recebe dois valores inteiros representando as soluções e retorna um valor inteiro representando o cruzamento aritmético entre as soluções;
+4. Mutação Simples: recebe um valor inteiro representando uma solução e retorna um valor inteiro representando a mutação simples da solução;
+5. Mutação Dupla: recebe um valor inteiro representando uma solução e retorna um valor inteiro representando a mutação dupla da solução.
 
 
+Estas funções devem ser implementadas nos arquivos genetico.h e genetico.cpp. As funções que implementam os operadores genéticos precisarão manipular os bits dos números inteiros. Essa manipulação de bits deve ser feita através de funções separadas, a serem implementadas nos arquivos binario.h e binario.cpp:
 
-               
+1. Ligar Bit: recebe um valor inteiro e a posição do bit a ser ligado, retornando o valor inteiro resultante da modificação do bit;
+2. Desligar Bit: recebe um valor inteiro e a posição do bit a ser desligado, retornando o valor inteiro resultante da modificação do bit;
+3. Testar Bit: recebe um valor inteiro e a posição do bit a ser testado, retornando um booleano para indicar se o bit está ou não ligado;
+4. AND Binário: recebe dois valores inteiros e retorna um inteiro representando o resultado da operação AND bit a bit entre os números recebidos.
+5. OR Binário: recebe dois valores inteiros e retorna um inteiro representando o resultado da operação OR bit a bit entre os números recebidos.
+6. Bits Baixos: recebe um valor inteiro e retorna outro contendo apenas os 8 bits de mais baixa ordem do valor original, com os demais bits colocados para zero.
+7. Bits Altos: recebe um valor inteiro e retorna outro contendo apenas os 8 bits de ordem mais alta do valor original, com os demais bits colocados para zero.
+
+
+O programa final deverá conter cinco arquivos, sendo o arquivo problema.cpp aquele que conterá a função main e se encarregará de ler os dados pelo teclado e exibir os resultados do programa.
