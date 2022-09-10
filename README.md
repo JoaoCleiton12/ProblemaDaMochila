@@ -60,3 +60,30 @@ iniciais sejam 1 e 0, caso contrário.
             Solução B  |1 |0 |0 |1 |0 |1 |0 |0 ||1 |0 |1 |0 |0 |1 |1 |0 |
                Nova    |0 |0 |0 |1 |0 |0 |0 |0 ||0 |0 |1 |0 |0 |0 |0 |0 |
                                                 |
+                                                
+       
+   
+2) Mutação
+a. Simples: a mutação simples modifica um bit de uma solução existente, obtendo assim uma nova solução.
+
+                                                
+                       |A |B |C |D |E |F |G  |H |I |J |K |L |M |N |O |P |
+            Solução A  |0 |0 |0 |0 |0 |1 |(0)|0 |1 |1 |1 |0 |1 |0 |1 |1 | 
+               Nova    |0 |0 |0 |0 |0 |1 |(1)|0 |1 |1 |1 |0 |1 |0 |1 |1 | 
+               
+   
+   
+b. Dupla: a mutação dupla tem o mesmo comportamento da simples, mas a nova solução tem dois bits modificados, no lugar de apenas um.
+               
+               
+                       |A |B |C |D  |E |F |G |H |I |J |K |L |M  |N |O |P |
+            Solução A  |0 |0 |0 |(0)|0 |0 |1 |0 |1 |1 |0 |1 |(1)|1 |0 |0 | 
+               Nova    |0 |0 |0 |(1)|0 |1 |1 |0 |1 |1 |0 |1 |(0)|1 |0 |0 |                                               
+               
+               
+               
+Aplicaremos cruzamento de ponto único entre as duas primeiras soluções fornecidas pelo usuário, cruzamento aritmético entre a terceira e quarta solução, mutação simples sobre a quinta solução e, finalmente, mutação dupla sobre a sexta e última solução. Isso significa que após aplicação dos operadores genéticos teremos mais 4 soluções novas para avaliar. A aplicação dos operadores em cima do exemplo inicial resultaria nos seguintes números:
+
+
+
+               
